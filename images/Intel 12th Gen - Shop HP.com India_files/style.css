@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.nav-bar{
+    height: 105px;
+    border-bottom: 2px solid #eeeeee;
+    margin: 0px 10px 0px 50px;
+    padding: 10px 0px 0px 20px;
+}
+   
+.parent{
+    display: flex;
+    align-items: center;
+    width: 68%;
+    /* padding: 8px 0px 0 66px; */
+    justify-content: space-between;
+}
+input{
+    border: none;
+    outline: none;
+    width: 96%;
+    height: 38px;
+    padding-left: 12px;
+} 
+.child2{
+    border: 1px solid rgb(200 203 207);
+     width: 93.5%;
+
+}
+.child1 > img {
+    height: 46px;
+}
+.parent1{
+    display: flex;
+    width: 96%;
+    /* margin: 0px 10px 0px 62px; */
+
+}
+.tabs{
+    display: grid;
+    grid-template-columns: 2.8fr 1.4fr 1.5fr 1.5fr 2fr 1.6fr 2fr 1.7fr 1fr 2fr 1fr;
+    padding: 5px 0px 10px 55px;
+    font-weight: 500;
+    color:#5a5a5a ;
+    align-items: center;
+
+}
+.tabs > div :hover{
+    cursor: pointer;
+}
+.tabs > .tabs1 :hover{
+    cursor: pointer;
+}
+.tabs2{
+    width: 16%;
+    margin-left: 16%;
+    color:#5a5a5a ;
+
+}
+.tab9 {
+color: red;
+}
+.lttabs2{
+display: grid;
+grid-template-columns: 0.2fr 0.3fr 0.2fr 0.1fr;
+width: 89%;
+margin-left: 37px;
+font-size: 14px;
+grid-gap: 5px;
+
+}
+.icons > i {
+    font-size: 25px;
+}
+.lttabs1{
+    padding: 0px 0px 5px 8px;
+}
+.next{
+    height: 79vh;
+    position: relative;
+} 
+.next >img{
+    width: 100%;
+    height: 100%;
+ 
+}
+.card {
+    height: 55vh;
+    width: 28%;
+    background-color: #fff;
+    position: absolute;
+    top: 14%;
+    padding: 30px 30px 10px 30px;
+}
+.card1{
+    font-size: 44px;
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+    line-height: 52px;
+}
+.card2{
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "HP Simplified Light";
+    line-height: 26px;
+    margin: 0 !important;
+    padding-top: 20px;
+}
+.card3{
+    transition: color .2s linear, background-color .2s linear, border-color .2s linear;
+    display: inline-block;
+    height: 36px;
+    padding: 0 20px;
+    cursor: pointer;
+    max-width: 100%;
+    outline: none;
+    font-size: 14px;
+    line-height: 36px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #165dba;
+    text-transform: uppercase;
+    border-radius: 3px 3px;
+    border: none;
+}
+.card4{
+    padding-top: 20px;
+}
+.desktop{
+display: grid;
+grid-template-columns: 1.9fr 0fr 1fr 1fr 1fr 1fr 1fr 1fr;
+padding-top: 30px;
+text-align: center;
+margin: auto;
+align-items: center;
+margin: 0px 50px 0px 50px;
+cursor: pointer;
+}
+.desktop2 >img {
+    margin: 21px 0px 15px 23px;
+}
+.desktop2{
+    height: 93px;
+}
+.border-right{
+    border-right: 1px solid #5a5a5a;
+}
+.desktop1{
+    height: 93px;
+}
+.desktop7 >img{
+    height: 100px;
+}
+.border-right >img{
+    height: 58px;
+}
+.desktop8 >img{
+    height: 58px;
+}
+.card-prods{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: space-between;
+    margin: 50px 50px 60px 50px;
+    padding-left: 20px;
+    cursor: pointer;
+}   
+.prods{
+    height: 35vh;
+    width: 77%;
+    background-color: #f8f8f8;
+    align-items: center;
+    text-align: center;
+    color: #5a5a5a;
+    padding: 35px 23px 20px 14px;
+}
+.prods-new{
+    height: 39vh;
+    width: 77%;
+    background-color: #555;
+    color: #fff;
+    padding: 20px 23px 20px 14px;
+}
+.prods-nev{
+ padding: 20px ;
+ font-size: medium;
+
+}
+.prods-nev > i {
+float: right;
+}
+.prods2{
+    padding-top: 34px;
+}
+.fa-rupee:before, .fa-inr:before {
+    font-size: 13px;
+}
+.prodlist-title{
+    width: 114px;
+    margin:35px 50px 25px 68px;
+    color: #5a5a5a;
+}
+.productlist{
+    margin:25px 50px 25px 68px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+}
+.prodlist > img{
+width: 417px;
+padding-bottom: 20px;
+}
+.prodlist-hvr{
+    padding-top: 30px;
+    color: #165dba;
+    max-width: 115px;
+    cursor: pointer;
+    /* padding-bottom: 60px; */
+}
+.prodlist{
+    padding-bottom: 20px;
+}
+.prodlist-hvr:hover{
+   
+    cursor: pointer;
+  
+}
+.prodlist-hvr > i{
+    float: right;
+}
+.shopuser-title{
+    width: 150px;
+    margin:0px 50px 25px 68px;
+    color: #5a5a5a;
+}
+.usershoping{
+    margin:25px 50px 25px 68px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+}
+.usershop > img {
+    width: 313px;
+    padding-bottom: 20px;
+}
+.usershop-hvr{
+    padding-top: 30px;
+    color: #165dba;
+    max-width: 115px;
+    cursor: pointer;
+}
+.usershop-hvr > i {
+    float: right;
+}
+.ftproducts{
+    width: 191px;
+    margin:0px 50px 25px 68px;
+    color: #5a5a5a;  
+}
+.ftproductsstab{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    border-bottom: 1px solid #5a5a5a;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+.ftprodtabs :hover{
+    cursor: pointer;
+}
+.thrdcards{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-between;
+    margin: auto;
+    width: 88%;
+    padding-top: 30px;
+}
+.boxcard{
+    box-shadow: 0 3px 6px rgb(44 48 56 / 16%);
+    background: #fff;
+    padding: 18px;
+    width: 186px;
+}
+.laptop > img{
+width: 184px;
+}
+.stocks{
+    color: #2c3038;
+    font-size: 14px;
+}
+.stocks >img {
+    width: 15px;
+    margin-right: 5px;
+}
+.info{
+    padding-top: 15px;
+    color: #af1653;
+}
+.stockname{
+    font: normal normal 600 16px/24px 'montserrat';
+    padding-bottom: 12px;
+    color: #2c3038;
+}
+.demoprice{
+    font-size: 12px;
+    color: #2c3038;;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+.price{
+    font: normal normal 600 18px/24px Montserrat;
+    padding-bottom: 5px;
+}
+.price >i{
+    font-size: 20px;
+}
+.tex{
+    font-size: 14px;
+    color: #5a5a5a;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.gst{
+    font-family: montserrat;
+    font-size: 11px;
+    color: #2c3038;
+    padding-bottom: 10px;
+}
+.shopbotton{
+    background: #2c3038;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 0;
+    font-size: 14px ;
+    font-weight: 600;
+    border-radius: 3px;
+    text-align: center;
+}
+.fa-rupee:before, .fa-inr:before {
+    font-size: 10px;
+    color: #2c3038;
+}
+.stpcktxt{
+    color: #2c3038;
+    font-size: 14px;
+}
+
+
+   
